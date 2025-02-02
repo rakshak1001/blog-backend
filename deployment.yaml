@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blog-backend
+  template:
+    metadata:
+      labels:
+        app: blog-backend
+    spec:
+      containers:
+      - name: blog-backend
+        image: 535002888699.dkr.ecr.ap-south-1.amazonaws.com/my-blog-backend:latest
+        ports:
+        - containerPort: 8080

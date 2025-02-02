@@ -1,0 +1,47 @@
+Project Idea: Minimalist Blog Platform with EKS, CI/CD, and Basic Monitoring
+
+Objective: Deploy a simple blog platform using AWS EKS for backend services, S3 for static frontend hosting, and GitHub Actions for CI/CD. This project aims to demonstrate DevOps practices like containerization, orchestration, and automation within AWS's Free Tier limits.
+
+
+Here's how our project aligns with the requirements of your assignment:
+
+Assignment Requirements:
+Create a video (maximum 5 minutes) using Loom:
+Project Fit: We're building a project from scratch, so this would be a perfect opportunity to record the process, especially the CI/CD setup, Docker containerization, and Kubernetes deployment.
+Share your screen and provide a walkthrough of the actual codebase:
+Project Fit: We'll have a codebase for the blog's backend and potentially a static site for the frontend. You can explain:
+The structure of your backend application.
+The Dockerfiles for containerizing the app.
+Kubernetes manifests for deployment.
+Build the CI/CD pipeline using GitHub CI:
+Project Fit: We've planned to use GitHub Actions for CI/CD:
+You can show how you've configured GitHub Actions to build, test, and deploy your application.
+Explain the workflow file (deploy.yml) where you automate Docker build, push to ECR, and deployment to EKS.
+Docker:
+Project Fit: 
+You can demonstrate:
+Writing and explaining the Dockerfile for your backend service.
+How you use Docker for local development and testing.
+Kubernetes:
+Project Fit: 
+Show:
+How you've set up your EKS cluster.
+The Kubernetes manifests (Deployments, Services, Ingress) you wrote for your application.
+How you apply these configurations to your cluster using kubectl.
+
+Topics Covered in Our Project:
+Codebase Walkthrough: You'll have actual code to show, including backend logic, static site for frontend, Docker configurations, and Kubernetes manifests.
+CI/CD Pipeline with GitHub Actions: We'll create a GitHub Actions workflow to automate the deployment process, which directly correlates with the assignment's requirement.
+Docker: The project involves containerizing the backend service, which means you'll have Dockerfiles to showcase.
+Kubernetes: Since we're deploying to EKS, you'll cover Kubernetes deployment strategies, configurations, and management.
+
+How to Prepare for the Video:
+Codebase Preparation: Ensure your code is clean, commented, and organized. Focus on parts that demonstrate your understanding of Docker, Kubernetes, and the CI/CD process.
+Screen Sharing: Practice recording your screen to ensure you can efficiently navigate through your code, GitHub Actions setup, Docker commands, and Kubernetes operations.
+Script Your Walkthrough: Prepare a script or at least an outline to keep your walkthrough clear and within the time limit. Cover:
+The purpose of the project.
+Key files or components (Dockerfile, Kubernetes YAMLs, GitHub Actions workflow).
+Steps from local development to cloud deployment.
+Technical Explanations: Briefly explain why you chose certain technologies or practices, benefits of CI/CD, containerization, and orchestration.
+
+This project setup will give you a solid foundation to demonstrate your skills in the areas specified for your assignment. Remember to rehearse your presentation to fit within the 5-minute limit while ensuring all key points are covered.
